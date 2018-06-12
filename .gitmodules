@@ -1,0 +1,27 @@
+[submodule ".config/fisherman/git_util"]
+	path = .config/fisherman/git_util
+	url = https://github.com/fisherman/git_util.git
+[submodule ".config/fisherman/host_info"]
+	path = .config/fisherman/host_info
+	url = https://github.com/fisherman/host_info.git
+[submodule ".config/fisherman/humanize_duration"]
+	path = .config/fisherman/humanize_duration
+	url = https://github.com/fisherman/humanize_duration.git
+[submodule ".config/fisherman/last_job_id"]
+	path = .config/fisherman/last_job_id
+	url = https://github.com/fisherman/last_job_id.git
+[submodule ".config/fisherman/metro"]
+	path = .config/fisherman/metro
+	url = https://github.com/fisherman/metro.git
+[submodule ".config/fisherman/pwd_info"]
+	path = .config/fisherman/pwd_info
+	url = https://github.com/fisherman/pwd_info.git
+[submodule ".config/fisherman/pwd_is_home"]
+	path = .config/fisherman/pwd_is_home
+	url = https://github.com/fisherman/pwd_is_home.git
+[submodule ".config/fisherman/segment"]
+	path = .config/fisherman/segment
+	url = https://github.com/fisherman/segment.git
+[submodule ".config/fisherman/z"]
+	path = .config/fisherman/z
+	url = https://github.com/fisherman/z.git
