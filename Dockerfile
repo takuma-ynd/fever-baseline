@@ -16,7 +16,7 @@ RUN apt-get update && \
 
 # install preffered software-packages
 RUN apt-get update && \
-    apt-get install -y less git python python3 python-pip python3-pip
+    apt-get install -y less git wget cmake python python3 python-pip python3-pip
 
 # syntax and style checker
 RUN python -m pip install flake8
