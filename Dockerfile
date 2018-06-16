@@ -34,9 +34,6 @@ RUN apt-get update && \
 RUN git clone --recursive https://github.com/takuma-ynd/tmux-config.git /root/.tmux
 RUN bash /root/.tmux/installer-for-docker.sh
 
-# set volume container
-VOLUME /root
-
 # welcome back to the home dir!
 WORKDIR /root
 
