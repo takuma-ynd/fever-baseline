@@ -13,6 +13,7 @@ RUN apt-get update && \
 RUN chsh -s /usr/bin/fish
 RUN mkdir -p /root/.config/fish
 COPY .config/ /root/.config
+ENV SHELL /usr/bin/fish
 
 # install preffered software-packages
 RUN apt-get update && \
