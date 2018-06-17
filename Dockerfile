@@ -4,7 +4,7 @@ FROM ubuntu:latest
 ENV TERM screen-256color
 
 # add all locales (without this, locale in config file will not be configured properly)
-RUN apt-get install -y locales-all
+RUN apt-get install -y locales locales-all
 
 # install and set fish shell
 RUN apt-get update && \
